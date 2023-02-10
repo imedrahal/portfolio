@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .portfolio {
-  background-color: #BACEC1;
+  background-color: #c6e8d2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,9 +9,9 @@
   h1 {
     font-size: 50px;
 
-//     @include mobile{
-//       font-size: 20px;
-//     }
+    @include mobile{
+      font-size: 20px;
+    }
   }
 
   ul {
@@ -20,11 +20,11 @@
     list-style: none;
     display: flex;
 
-    // @include mobile{
-    //   margin: 10px 0;
-    //   flex-wrap: wrap;
-    //   justify-content: center;
-    // }
+    @include mobile{
+      margin: 10px 0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   .container {

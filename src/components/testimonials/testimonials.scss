@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .testimonials {
-  background-color: #BACEC1;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +41,7 @@
       justify-content: space-around;
       padding: 20px;
       transition: all 1s ease;
-
+      color: rgb(214, 131, 147);
       @include mobile{
         height: 180px;
         margin: 10px 0;

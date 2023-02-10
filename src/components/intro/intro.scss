@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .intro {
-  background-color: #FFC1A0;
+  background-color: #dff4e6;
   display: flex;
 
   @include mobile{
@@ -74,7 +74,7 @@
 
         span {
           font-size: inherit;
-          color: crimson;
+          color: rgb(214, 131, 147);
         }
 
         .ityped-cursor {

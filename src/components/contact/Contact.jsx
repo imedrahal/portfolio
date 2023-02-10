@@ -46,7 +46,15 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact" id="contact">
+    <div className="contact" id="contact"
+    style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      width: '100%',
+      height: '100%'
+    }}>
       <div className="left">
         <img src={contact} alt="" />
       </div>

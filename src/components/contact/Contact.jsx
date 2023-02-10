@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./contact.scss";
+import contact from "../../images/contact-us.jpg";
 import emailjs from "emailjs-com";
 import swal from "sweetalert";
 
@@ -47,7 +48,7 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src="assets/contact-us.jpg" alt="" />
+        <img src={contact} alt="" />
       </div>
       <div className="right">
         <h2>Contact us</h2>

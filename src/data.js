@@ -1,33 +1,39 @@
+import kamioun from "./images/kamioun.png";
+import Etafakna from "./images/logo2.png";
+import EventTOGo from "./images/event-to-go.jpg";
+import Nearshop from "./images/e-commerce.png";
+import TOdoList from "./images/todolist.png";
+
 export const AllPortfolio = [
   {
     id: 1,
     title: "Kamioun",
     img:
-    "assets/kamioun.png",
+    kamioun,
   },
     {
       id: 2,
       title: "E-TAFAKNA",
       img:
-      "assets/logo2.png",
+      Etafakna,
     },
     {
       id: 3,
       title: "Event TO Go",
       img:
-      "assets/event-to-go.jpg",
+      EventTOGo,
     },
     {
       id: 4,
       title: "Nearshop",
       img:
-      "assets/e-commerce.png",
+      Nearshop,
     },
     {
       id: 5,
       title: "TOdoList",
       img:
-      "assets/todolist.png",
+      TOdoList,
     },
     
   ];
@@ -36,23 +42,23 @@ export const AllPortfolio = [
     {
       id: 1,
       title: "NearShop",
-      img: "assets/e-commerce.png",
+      img: Nearshop ,
     },
     {
       id: 2,
       title: "Event TO Go",
-      img:"assets/event-to-go.jpg",
+      img:EventTOGo,
 
     },
     {
       id: 3,
       title: "TOdoList",
-      img:"assets/todolist.png",
+      img:TOdoList,
     },
     {
       id: 4,
       title: "Dashboard E-tafakna",
-      img: "assets/logo2.png",
+      img:  Etafakna,
     },
     
   ];
@@ -62,13 +68,13 @@ export const AllPortfolio = [
       id: 1,
       title: "e-TAFAKNA",
       img:
-      "assets/logo2.png",
+      Etafakna,
     },
     {
       id: 2,
       title: "Kamioun",
       img:
-      "assets/kamioun.png",
+      kamioun,
     },
     
   ];

@@ -1,14 +1,13 @@
 import "./intro.scss";
 import Type from "../Type.jsx"
+import me from "../../images/me.jpg";
+
 export default function Intro() {
-
-
-
   return (
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/me.jpg" alt="" />
+          <img src={me} alt="" />
         </div>
       </div>
       <div className="right">

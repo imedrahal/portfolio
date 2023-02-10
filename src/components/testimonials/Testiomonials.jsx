@@ -1,51 +1,60 @@
 import "./testimonials.scss";
+import js from "../../images/js1.png";
+import react from "../../images/react.png";
+import reactNative from "../../images/react-native.png";
+import Vue from "../../images/Vue.png";
+import express from "../../images/express.png";
+import mysql from "../../images/mysql.png";
+import mongo from "../../images/mongo.png";
+import jwt from "../../images/jwt.png";
+import cloudinary from "../../images/cloudinary.png";
 
 export default function Testiomonials() {
   const data = [
     {
       id:1,
       name:"javascript",
-      img:"assets/js1.png"
+      img:js
     },
     {
       id:2,
       name:"React Js",
-      img:"assets/react.png"
+      img:react
     },
     {
       id:3,
       name:"react-native",
-      img:"assets/react-native.png"
+      img:reactNative
     },
     {
       id:4,
       name:"Vue Js",
-      img:"assets/Vue.png"
+      img:Vue
     },
     {
       id:5,
       name:"node.Js and express.Js ",
-      img:"assets/express.png"
+      img:express
     },
     {
       id:6,
       name:" mysql",
-      img:"assets/mysql.png"
+      img:mysql
     },
     {
       id:7,
       name:"MonogoDB",
-      img:"assets/mongo.png"
+      img:mongo
     },
     {
       id:8,
       name:"cloudinary",
-      img:"assets/cloudinary.png"
+      img:cloudinary
     },
     {
       id:9,
       name:"jwt",
-      img:"assets/jwt.png"
+      img:jwt
     },
     
   

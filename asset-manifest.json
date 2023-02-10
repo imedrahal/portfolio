@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6684fd63.css",
+    "main.css": "/portfolio/static/css/main.0a21b248.css",
     "main.js": "/portfolio/static/js/main.d4c96391.js",
     "static/media/contact-us.jpg": "/portfolio/static/media/contact-us.626a477b194b85ddfdb5.jpg",
     "static/media/todolist.png": "/portfolio/static/media/todolist.9b3d52ca49cf76c0b546.png",
@@ -9,11 +9,11 @@
     "static/media/react-native.png": "/portfolio/static/media/react-native.90fb0021be64f2b1ce7e.png",
     "static/media/e-commerce.png": "/portfolio/static/media/e-commerce.8ae96cd2c80855a189e8.png",
     "index.html": "/portfolio/index.html",
-    "main.6684fd63.css.map": "/portfolio/static/css/main.6684fd63.css.map",
+    "main.0a21b248.css.map": "/portfolio/static/css/main.0a21b248.css.map",
     "main.d4c96391.js.map": "/portfolio/static/js/main.d4c96391.js.map"
   },
   "entrypoints": [
-    "static/css/main.6684fd63.css",
+    "static/css/main.0a21b248.css",
     "static/js/main.d4c96391.js"
   ]
 }

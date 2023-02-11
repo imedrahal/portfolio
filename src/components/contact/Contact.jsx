@@ -53,7 +53,7 @@ export default function Contact() {
       <div className="right">
         <h2>Contact us</h2>
         <form onSubmit={handleSubmit}>
-          <label style={{marginLeft:"-10px",marginTop: "5px",marginBottom: "15px"}}>
+          <label style={{marginLeft: "-10px",marginTop:"-4px",marginBottom: "4px"}}>
             your name
           </label>
           <input
@@ -65,7 +65,7 @@ export default function Contact() {
             }}
             value={from_name}
           />
-          <label style={{ marginLeft: "-10px", fontFamily:'pappins',marginTop: "10px",marginBottom: "15px" }}>your email</label>
+          <label style={{ marginLeft: "-10px", fontFamily:'pappins',marginTop: "-4px",marginBottom: "4px" }}>your email</label>
 
           <input
             type="email"
@@ -76,7 +76,7 @@ export default function Contact() {
             }}
             value={to_name}
           />
-          <label style={{ marginLeft: "-20px", fontFamily:'Raleway',marginBottom: "15px",marginTop: "10px" }}>your message</label>
+          <label style={{ marginLeft: "-20px", fontFamily:'Raleway',marginBottom: "4px",marginTop: "-4px" }}>your message</label>
 
           <textarea
             placeholder="Message"

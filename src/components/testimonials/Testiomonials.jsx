@@ -33,7 +33,7 @@ export default function Testiomonials() {
     },
     {
       id:5,
-      name:"node.Js and express.Js ",
+      name:"node.Js/  express.Js ",
       img:express
     },
     {
@@ -62,10 +62,10 @@ export default function Testiomonials() {
   return (
     <div className="testimonials" id="testimonials">
       <h1>Technologies</h1>
-      <div className="container" >
+      <div className="container"  >
       {data.map((d) => (
-          <div className={d.featured ? "card featured" : "card"} style={{backgroundColor:"#D2D8D5" , marginLeft:"1%"}}>
-            <div className="top">
+          <div className={d.featured ? "card featured" : "card"} style={{backgroundColor:"white" , marginLeft:"1%"}}>
+            <div className="top" style={{width:"100%", height:"100%",marginTop:"-2%"}}>
               
               <img
                 className="user"
@@ -74,8 +74,8 @@ export default function Testiomonials() {
               />
             </div>
             
-            <div className="bottom">
-              <h3>{d.name}</h3>
+            <div className="center" >
+             <h4>{d.name}</h4> 
             </div>
           </div>
         ))}

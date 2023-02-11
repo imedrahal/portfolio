@@ -46,22 +46,14 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact" id="contact"
-    style={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      width: '100%',
-      height: '100%'
-    }}>
+    <div className="contact" id="contact">
       <div className="left">
         <img src={contact} alt="" />
       </div>
       <div className="right">
         <h2>Contact us</h2>
         <form onSubmit={handleSubmit}>
-          <label style={{ marginLeft: "-230px", marginTop: "50px",fontFamily:'Raleway' }}>
+          <label style={{marginLeft:"-10px",marginTop: "5px",marginBottom: "15px"}}>
             your name
           </label>
           <input
@@ -73,7 +65,7 @@ export default function Contact() {
             }}
             value={from_name}
           />
-          <label style={{ marginLeft: "-230px", fontFamily:'Raleway' }}>your email</label>
+          <label style={{ marginLeft: "-10px", fontFamily:'pappins',marginTop: "10px",marginBottom: "15px" }}>your email</label>
 
           <input
             type="email"
@@ -84,7 +76,7 @@ export default function Contact() {
             }}
             value={to_name}
           />
-          <label style={{ marginLeft: "-210px", fontFamily:'Raleway' }}>your message</label>
+          <label style={{ marginLeft: "-20px", fontFamily:'Raleway',marginBottom: "15px",marginTop: "10px" }}>your message</label>
 
           <textarea
             placeholder="Message"

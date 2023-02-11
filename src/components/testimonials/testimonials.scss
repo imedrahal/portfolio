@@ -13,7 +13,7 @@
 height: 12%;
     @include mobile{
       margin-top: 1px;
-      margin-bottom: -45px;
+      margin-bottom: -5px;
       font-size: 50px;
     }
   }
@@ -46,7 +46,7 @@ height: 12%;
       @include mobile{
         height: 110px;
         width: 110px;
-        margin: 10px 40px 20px 80px ;
+        margin: 20px 15px 40px -10px ;
       }
 
       // &.featured{
